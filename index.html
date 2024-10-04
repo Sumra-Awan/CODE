@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Makeup Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <input type="text" placeholder="Search products...">
+            <div class="filter">
+                <h4>Filter by:</h4>
+                <label>Brand: 
+                    <select>
+                        <option value="">Select a brand</option>
+                        <option>Brand A</option>
+                        <option>Brand B</option>
+                        <option>Brand C</option>
+                    </select>
+                </label>
+                <label>Price:
+                    <input type="range" min="0" max="100" value="50">
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>Your one-stop shop for all things makeup <br>
+                 Explore our collection of premium beauty products.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to bringing you the best makeup products from top brands. <br>
+                Our mission is to empower individuals through beauty.</p>
+        </section>
+        
+        <section id="products">
+            <h2><b>Our Products</b></h2>
+            <div class="promo-banner">
+                <h3>20% off on selected items!</h3>
+            </div>
+            <div class="product">
+                <img src="images/eyeshadow.jpg" alt="EYESHADOW">
+                <h3>EYESHADOW</h3>
+                <p>Brand: Brand A</p>
+                <p>Price: $25.00</p>
+                <p>A great product for your daily makeup routine.</p>
+                <div class="reviews">
+                    <h4>Reviews</h4>
+                    <p>User: Great product!</p>
+                    <p>Rating: ★★★★☆</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/mascara.jpg" alt="MASCARA">
+                <h3>MASCARA</h3>
+                <p>Brand: Brand B</p>
+                <p>Price: $10.00</p>
+                <p>Perfect for a bold look and all-day wear.</p>
+                <div class="reviews">
+                    <h4>Reviews</h4>
+                    <p>User: Love it!</p>
+                    <p>Rating: ★★★★★</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/lip-gloss.jpg" alt="LIP-GLOSS">
+                <h3>LIP-GLOSS</h3>
+                <p>Brand: Brand C</p>
+                <p>Price: $20.00</p>
+                <p>Lightweight and easy to apply.</p>
+                <div class="reviews">
+                    <h4>Reviews</h4>
+                    <p>User: So smooth!</p>
+                    <p>Rating: ★★★★☆</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Latest from Our Blog</h2>
+            <article>
+                <h3>5 Tips for Perfect Makeup</h3>
+                <p>Learn how to achieve the perfect makeup look with these tips...</p>
+            </article>
+            <article>
+                <h3>Makeup Trends of 2024</h3>
+                <p>Discover the latest trends that are taking the beauty world by storm...</p>
+            </article>
+        </section>
+
+        <div class="newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form>
+                <label>Name:</label>
+                <input type="text" required>
+                <label>Email:</label>
+                <input type="email" required>
+                <label>Message:</label>
+                <textarea required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on:</p>
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a>
+        <p>&copy; 2024 Makeup Store</p>
+    </footer>
+</body>
+</html>
